@@ -14,5 +14,11 @@ class TestConjunto(unittest.TestCase):
         resultado_esperado = 15.44
         self.assertAlmostEqual(calcular_promedio_ponderado(numeros, pesos), resultado_esperado, places=2)
 
+    def test_pesos_contienen_cero(self):
+        numeros = [10, 20, 30]
+        pesos = [0, 1, 1]
+        with self.assertRaises(ValueError):
+            calcular_promedio_ponderado(numeros, pesos)
+
 if __name__ == '__main__':
     unittest.main()

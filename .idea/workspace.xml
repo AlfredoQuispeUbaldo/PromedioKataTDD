@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb5827b8-8771-4b70-9949-e616a3500682" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logica/Conjunto.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logica/Conjunto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestConjunto.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestConjunto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
