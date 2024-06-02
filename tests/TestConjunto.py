@@ -32,5 +32,11 @@ class TestConjunto(unittest.TestCase):
         with self.assertRaises(ValueError):
             calcular_promedio_ponderado(numeros, pesos)
 
+    def test_lista_pesos_vacia(self):
+        numeros = [10, 20, 30]
+        pesos = []
+        with self.assertRaises(ValueError):
+            calcular_promedio_ponderado(numeros, pesos)
+
 if __name__ == '__main__':
     unittest.main()
