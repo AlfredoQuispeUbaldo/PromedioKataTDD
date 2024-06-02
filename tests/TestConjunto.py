@@ -8,5 +8,11 @@ class TestConjunto(unittest.TestCase):
         resultado_esperado = 11.78
         self.assertAlmostEqual(calcular_promedio_ponderado(numeros, pesos), resultado_esperado, places=2)
 
+    def test_promedio_ponderado_cp1(self):
+        numeros = [15, 15, 17]
+        pesos = [3, 4, 2]
+        resultado_esperado = 15.44
+        self.assertAlmostEqual(calcular_promedio_ponderado(numeros, pesos), resultado_esperado, places=2)
+
 if __name__ == '__main__':
     unittest.main()
